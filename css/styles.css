@@ -727,6 +727,20 @@ input[type=checkbox] {
     border-radius: 3px;
 }
 
+/* PAGINA CART */
+.cart__content {
+    margin: var(--spacing-68) auto;
+    min-height: 350px;
+}
+
+.cart__title {
+    display: inline;
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: var(--font-46-display);
+    border-bottom: 4px solid var(--rojo);
+}
+
 /* Media queries */
 @media (max-width:768px) {
     .collection:nth-child(1) .collection__cover {
