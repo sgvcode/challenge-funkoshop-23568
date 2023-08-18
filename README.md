@@ -1,5 +1,5 @@
 # challenge-integrador-funkoshop
-### CAC#23568 - Full Stack NodeJS 2023
+## CAC#23568 - Full Stack NodeJS 2023
 
 ### Primera Etapa: Desarrollo de Front-End
 
