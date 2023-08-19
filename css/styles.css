@@ -687,6 +687,10 @@ label {
     font-size: var(--font-24-large);
 }
 
+input:focus::placeholder {
+    color: transparent;
+}
+
 .login__box .form__link {
     font-size: var(--font-small);
     text-align: center;
@@ -709,15 +713,15 @@ label {
     font-size: var(--font-14-xsmall);
 }
 
+.form__btn:hover {
+    background-color: var(--rojo-90);
+}
+
 .checkbox__label--login {
     font-family: var(--font-inter);
     font-size: var(--font-18-medium);
     font-weight: 400;
     padding-left: 4px;
-}
-
-input[type=checkbox] {
-    appearance: none;
 }
 
 .form-check-login {
@@ -730,7 +734,7 @@ input[type=checkbox] {
 /* PAGINA CART */
 .cart__content {
     margin: var(--spacing-68) auto;
-    min-height: 350px;
+    min-height: 400px;
 }
 
 .cart__title {
