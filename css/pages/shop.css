@@ -1,5 +1,6 @@
 .shop__form {
     border-bottom: 1px dotted var(--negro-30);
+    font-family: var(--font-inter);
 }
 
 .form__search {
@@ -13,7 +14,7 @@
 }
 
 label {
-    font-size: var(--font-18-medium);
+    font-size: var(--font-24-large);
     font-weight: 600;
 }
 
@@ -40,7 +41,7 @@ label {
 
 .precio label {
     font-weight: 600;
-    font-size: var(--font-12-xxsmall);
+    font-size: var(--font-14-xsmall);
     padding-right: 10px;
 }
 
@@ -62,7 +63,7 @@ label {
 }
 
 .checkbox__content {
-    padding: var(--spacing-20);
+    padding: var(--spacing-8) var(--spacing-16);
 }
 
 .form-check {
@@ -71,14 +72,26 @@ label {
 }
 
 .checkbox__label {
-    font-size: var(--font-14-xsmall);
-    padding-left: 4px;
+    font-size: var(--font-18-medium);
+    padding-left: var(--spacing-8);
+}
+
+.form-check-label {
+    margin: 2px 0;
 }
 
 .form-check-input {
-    width: var(--spacing-16);
-    height: var(--spacing-16);
+    appearance: none;
+}
+
+.form-check-input {
+    width: var(--spacing-24);
+    height: var(--spacing-24);
     border: 2px solid var(--fondo-oscuro);
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 6px;
 }
 
 .form-select-lg {

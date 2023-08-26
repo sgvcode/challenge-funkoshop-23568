@@ -12,7 +12,7 @@ header {
 
 .navbar__logo {
     min-width: 150px;
-    max-width: 300px;
+    max-width: 372px;
 }
 
 .navbar__menu {
@@ -62,4 +62,13 @@ header {
 
 .submenu__item:hover {
     background-color: var(--rojo-90);
+}
+
+.logo__branding {
+    padding-right: var(--spacing-16);
+    transition: filter .3s ease;
+}
+
+.logo__branding:hover {
+    filter: brightness(1.6);
 }
