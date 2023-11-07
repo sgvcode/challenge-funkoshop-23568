@@ -45,7 +45,8 @@ header {
 }
 
 .navbar__cart:hover {
-    filter: brightness(0) saturate(100%) invert(36%) sepia(47%) saturate(4993%) hue-rotate(343deg) brightness(111%) contrast(104%);
+    color: var(--rojo);
+    /* filter: brightness(0) saturate(100%) invert(36%) sepia(47%) saturate(4993%) hue-rotate(343deg) brightness(111%) contrast(104%); */
 }
 
 .submenu {

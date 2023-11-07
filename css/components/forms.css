@@ -314,6 +314,7 @@ input:focus::placeholder {
 
 .form-check-label {
     margin: 2px 0;
+    font-weight: 600;
 }
 
 .form-check-input {
@@ -351,4 +352,9 @@ input:focus::placeholder {
 
 .createdit__files {
     margin-bottom: var(--spacing-24);
+}
+
+.form__label--shop {
+    font-size: var(--font-24-large);
+    font-weight: 600;
 }
